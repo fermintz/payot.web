@@ -12,13 +12,13 @@
           show-arrows-on-hover
         >
           <v-carousel-item>
+            <v-img src="@/assets/img/slide03.png" />
+          </v-carousel-item>
+          <v-carousel-item>
             <v-img src="@/assets/img/slide02.png" />
           </v-carousel-item>
           <v-carousel-item>
             <v-img src="@/assets/img/slide01.png" />
-          </v-carousel-item>
-          <v-carousel-item>
-            <v-img src="@/assets/img/slide03.png" />
           </v-carousel-item>
         </v-carousel>
       </div>

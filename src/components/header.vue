@@ -14,6 +14,13 @@
           회사소개
         </v-btn>
         <v-btn
+          text
+          @click="$router.push('/product/kiosk')"
+          :class="{ active: this.$route.name === 'kiosk' }"
+        >
+          포인트충전 키오스크
+        </v-btn>
+        <v-btn
         text
           @click="$router.push('/product/system')"
           :class="{ active: this.$route.name === 'system' }"
@@ -27,13 +34,7 @@
         >
           스마트폰 결제시스템
         </v-btn>
-        <v-btn
-          text
-          @click="$router.push('/product/kiosk')"
-          :class="{ active: this.$route.name === 'kiosk' }"
-        >
-          포인트충전 키오스크
-        </v-btn>
+        
         <v-btn
           text
           @click="$router.push('/review')"
