@@ -47,7 +47,15 @@
           <v-icon>mdi-menu</v-icon>
         </v-btn>
       </div>
-    </div>    
+    </div>
+    <div class="side">
+      <v-btn text class="top" @click="this.scrollTopMove">
+        <v-icon>mdi-arrow-collapse-up</v-icon>
+      </v-btn>
+      <v-btn text class="system" @click="this.wrap">
+        <label>무인매장<br><b>관리시스템</b></label>
+      </v-btn>
+    </div>
   </div>
 </template>
 
@@ -61,6 +69,13 @@ export default {
     update(value){
       this.$emit("child", value)
     },
+    wrap() {
+      window.open('http://www.coin-machine.com', '_blank');
+    },
+    scrollTopMove(){
+      // const windowTop = document.querySelector('html')
+      window.scrollTo(0, 0);
+    }
   }
 };
 </script>
@@ -103,6 +118,26 @@ export default {
     }
 
     .mobile-gnb{display:none;}
+  }
+
+  .side{
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+
+    .v-btn{
+      width:80px;
+      height:80px;
+      background:#fff;
+      border:1px solid #e2e2e2;
+      box-shadow: 0 0 30px rgba(0,0,0,0.10);
+      margin-top:10px;
+
+      b{color:#452ee9}
+    }
+
   }
 }
 
@@ -153,6 +188,8 @@ export default {
         }
       }
     }
+
+    .side{display:none;}
   }
 }
 

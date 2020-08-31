@@ -5,7 +5,7 @@
     </div>
     <div class="footer-btns">
       <v-btn text>개인정보 취급방침</v-btn>
-      <v-btn text @click="systemLink">무인매장 관리시스템</v-btn>
+      <v-btn text @click="this.wrap">무인매장 관리시스템</v-btn>
     </div>
     <div class="footer-info">
       <div class="inner">
@@ -45,9 +45,9 @@
 <script>
 export default {
    methods:{
-     systemLink(){
-       window.location.href = 'http://www.coin-machine.com/login'
-     }
+     wrap() {
+      window.open('http://www.coin-machine.com', '_blank');
+      }
    }
 }
 </script>

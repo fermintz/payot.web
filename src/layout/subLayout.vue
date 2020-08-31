@@ -21,7 +21,7 @@ export default {
   methods:{
     drawerHandle(value){
       this.$refs.drawer.drawerOpen(value);
-    }
+    },
   }
 }
 </script>

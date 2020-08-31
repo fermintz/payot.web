@@ -27,7 +27,7 @@
       </div>
 
       <div class="menu2">
-        <v-btn text>무인매장 관리시스템</v-btn>
+        <v-btn text @click="wrap">무인매장 관리시스템</v-btn>
       </div>
     </div>
   </v-navigation-drawer>
@@ -45,6 +45,9 @@ export default {
     drawerOpen(value){
       this.visible = value;
     },
+    wrap() {
+      window.open('http://www.coin-machine.com', '_blank');
+    }
   }
 }
 </script>
