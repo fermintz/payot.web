@@ -386,14 +386,14 @@
                   <div class="item">
                     <img src="@/assets/img/catalog.png" />
                     <label>페이오티 브로슈어</label>
-                    <v-btn text>Download</v-btn>
+                    <v-btn text @click="downloadFile('catalog')">Download</v-btn>
                   </div>
                 </v-col>
                 <v-col cols="12" md="6" sm="6">
                   <div class="item">
                     <img src="@/assets/img/guide.png" />
                     <label>페이오티 사용자메뉴얼</label>
-                    <v-btn text>Download</v-btn>
+                    <v-btn text @click="downloadFile('guide')">Download</v-btn>
                   </div>
                 </v-col>
               </v-row>
@@ -462,6 +462,11 @@ export default {
     },
     screenHeight(){
       this.visualHeight = window.innerHeight
+    },
+    downloadFile(fileName) {
+      const filePath = `http://www.payot-inc.com/pdf/${fileName}.pdf`;
+      
+      window.open(filePath, '_blank');
     }
   },
 

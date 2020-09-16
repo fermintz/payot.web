@@ -5,6 +5,7 @@
   "proxy": "http://payot-inc.com",
   "scripts": {
     "serve": "vue-cli-service serve",
+    "prebuild": "set NODE_ENV=production",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
