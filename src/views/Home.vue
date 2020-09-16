@@ -465,7 +465,6 @@ export default {
     },
     downloadFile(fileName) {
       const filePath = `http://www.payot-inc.com/pdf/${fileName}.pdf`;
-      
       window.open(filePath, '_blank');
     }
   },
@@ -492,12 +491,10 @@ export default {
 
 .mobile-visual {
   display:none;
-  
 }
 
 .section {
   padding: 80px 0;
-
   .section-title {
     dl {
       dt {
@@ -526,7 +523,6 @@ export default {
         margin-bottom: 35px;
       }
     }
-
     span {
       display: block;
       width: 1px;
