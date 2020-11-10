@@ -199,26 +199,7 @@
         <div class="inner">
           <div class="video-list">
             <v-row>
-              <v-col cols="12" md="5" sm="6">
-                <div class="video-item">
-                  <span class="thumbnail">
-                    <iframe
-                      src="https://www.youtube.com/embed/UVXvaTSopWE"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </span>
-                  <span class="item-title"
-                    >셀프빨래방 카드결제 키오스크 (페이오티)</span
-                  >
-                  <span class="description"
-                    >페이오티 키오스크의 사용방법을 동영상으로<br />
-                    확인활 수 있습니다</span
-                  >
-                </div>
-              </v-col>
-              <v-col cols="12" md="5" sm="6">
+              <v-col cols="12" md="8" sm="6">
                 <div class="video-item">
                   <span class="thumbnail">
                     <iframe
@@ -636,8 +617,9 @@ export default {
         margin-bottom: 20px;
 
         iframe {
+          display:block;
           width: 100%;
-          height: 200px;
+          height: 386px;
         }
       }
       span.item-title {
