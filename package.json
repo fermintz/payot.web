@@ -7,7 +7,8 @@
     "serve": "vue-cli-service serve",
     "prebuild": "set NODE_ENV=production",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "upload": "scp -r ./dist/* root@dailywash.co.kr:/web/www.payot-inc.com"
   },
   "dependencies": {
     "axios": "^0.20.0",

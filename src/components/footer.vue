@@ -15,7 +15,7 @@
           </div>
           <div class="item">
             <label>주소</label>
-            <span>부산광역시 금정구 부산대학로 63번길 2, 과학기술연구동 201호</span>
+            <span>부산 강서구 미음산단5로41번길 71 부산글로벌테크비즈센터 310호 페이오티</span>
           </div>
         </div>
         <div class="item">

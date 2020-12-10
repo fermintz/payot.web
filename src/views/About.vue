@@ -100,8 +100,7 @@
                   <dl>
                     <dt>본사소재지</dt>
                     <dd>
-                      부산시 금정구 부산대학로 63번길 2<br />과학기술연구동
-                      201호
+                      부산 강서구 미음산단5로41번길 71 <br />부산글로벌테크비즈센터 310호 페이오티
                     </dd>
                   </dl>
                   <dl>
@@ -124,7 +123,7 @@
                     <td class="in">
                       <dl>
                         <dt>11</dt>
-                        <dd><span>부산 內 5개 대학 설치</span></dd>
+                        <dd><span> 內 5개 대학 설치</span></dd>
                       </dl>
                       <dl>
                         <dt>08</dt>
@@ -216,7 +215,7 @@
 
       <div class="location">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1629.4106349461167!2d129.07589365821445!3d35.235818985862515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356893f26e7ddb55%3A0xf73478b75211ca66!2zKOyjvCntjpjsnbTsmKTti7A!5e0!3m2!1sko!2skr!4v1597992252470!5m2!1sko!2skr"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4612.934264540692!2d128.86445872585568!3d35.16068319980123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568c51c580a2e6d%3A0xa7f3cbbb3e4b489e!2z67aA7IKw6riA66Gc67KM7YWM7YGs67mE7KaI7IS87YSw!5e0!3m2!1sko!2skr!4v1607565543022!5m2!1sko!2skr"
           width="100%"
           height="540"
           frameborder="0"
