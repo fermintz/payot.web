@@ -259,11 +259,6 @@
                     <span class="img-box" v-ripple>
                       <img src="/contents/ex11.jpg" />
                     </span>
-                    <span class="img-box btn">
-                      <v-btn text @click="$router.push('/review')"
-                        >더보기</v-btn
-                      >
-                    </span>
                   </div>
                 </div>
               </v-col>

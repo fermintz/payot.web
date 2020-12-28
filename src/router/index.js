@@ -5,7 +5,6 @@ import About from "../views/About.vue";
 import System from "../views/System.vue";
 import Kiosk from "../views/Kiosk.vue";
 import Smart from "../views/Smart.vue";
-import Review from "../views/Review.vue";
 
 
 Vue.use(VueRouter);
@@ -35,11 +34,6 @@ const routes = [
     path:'/product/smart',
     name:'smart',
     component:Smart,
-  },
-  {
-    path:'/review',
-    name:'review',
-    component:Review,
   },
 ];
 

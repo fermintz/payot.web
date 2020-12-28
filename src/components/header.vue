@@ -35,13 +35,6 @@
           스마트폰 결제시스템
         </v-btn>
         
-        <v-btn
-          text
-          @click="$router.push('/review')"
-          :class="{ active: this.$route.name === 'review' }"
-        >
-          설치사례
-        </v-btn>
       </div>
       <div class="mobile-gnb">
         <v-btn text @click="update(true)">
