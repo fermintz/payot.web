@@ -267,7 +267,6 @@ export default {
     dl {
       dt {
         font-size: 4.5vh;
-        line-height: 42px;
         margin-top: 50px;
         strong {
           font-weight: 600;
