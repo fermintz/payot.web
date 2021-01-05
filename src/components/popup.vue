@@ -28,6 +28,9 @@ export default {
 <style lang="scss" scoped>
 .popup {
   position: relative;
+  img {
+    width: 100%;
+  }
 
   a {
     cursor: pointer;
