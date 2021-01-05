@@ -2,6 +2,7 @@
   <div class="wrap">
     <Header :headState="headState" @child="drawerHandle"/>
     <Drawer ref="drawer"/>
+    <Popup />
     <div class="home">
       <div class="visual">
         <v-carousel
@@ -88,8 +89,6 @@
           </v-carousel-item>
         </v-carousel>
       </div>
-
-      
 
       <div class="section main-product">
         <div class="section-title">
@@ -387,6 +386,8 @@
 import Header from "@/components/header.vue";
 import Footer from "@/components/footer.vue";
 import Drawer from '@/components/drawer.vue';
+import Popup from '@/components/popup.vue';
+
 import { daumSearch } from "@/utils/KakaoSearch";
 
 let event;
@@ -398,6 +399,7 @@ export default {
     Header,
     Footer,
     Drawer,
+    Popup,
   },
 
   data() {
